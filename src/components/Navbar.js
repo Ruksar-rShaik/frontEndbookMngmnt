@@ -6,7 +6,6 @@ const Navbar = () => {
 
       <nav className="navbar navbar-expand-lg bg-body-tertiary">
   <div className="container-fluid">
-    <Link className="navbar-brand" to="/">Navbar</Link>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>
@@ -32,8 +31,6 @@ const Navbar = () => {
           <ul className="dropdown-menu">
             <li><Link className="dropdown-item" to="/books">Create book</Link></li>
             <li><Link className="dropdown-item" to="/updateBooks">UpdateBook</Link></li>
-            <li><hr className="dropdown-divider"/></li>
-            <li><Link className="dropdown-item" to="/">Something else here</Link></li>
           </ul>
         </li>   <li className="nav-item dropdown">
           <Link className="nav-link dropdown-toggle" to="/" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -42,12 +39,7 @@ const Navbar = () => {
           <ul className="dropdown-menu">
             <li><Link className="dropdown-item" to="/review">Create review</Link></li>
             <li><Link className="dropdown-item" to="/updateReview">update review</Link></li>
-            <li><hr className="dropdown-divider"/></li>
-            <li><Link className="dropdown-item" to="/">Something else here</Link></li>
           </ul>
-        </li>
-        <li className="nav-item">
-          <Link className="nav-link disabled">Disabled</Link>
         </li>
       </ul>
       <form className="d-flex" role="search">

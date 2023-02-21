@@ -5,9 +5,39 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url("https://wallpaperaccess.com/full/934065.jpg");
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+#quotes{
+  margin-top: 10vh;
+}
+
+#login{
+  margin-top: 10vh;
+  font-size:larger;
+}
+
+#createbook{
+  margin-top: 10vh;
+  font-size:larger;
+}
+
+#updatebook{
+  margin-top: 10vh;
+  font-size:larger;
+}
+
+#createreview{
+  margin-top: 10vh;
+  font-size:larger;
+}
+
+#updatereview{
+  margin-top: 10vh;
+  font-size:larger;
 }
