@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import Register from './components/Register';
 import {BrowserRouter, Routes, Route, Link} from 'react-router-dom';
@@ -11,6 +10,8 @@ import UpdateReview from './components/UpdateReview';
 import Home from './components/Home';
 import Page404 from './components/Page404';
 import Play from './components/Play';
+import GetBooks from './components/getBooks';
+import DeleteBooksById from './components/deleteBook';
 
 function App() {
   return (
@@ -27,7 +28,9 @@ function App() {
         < Route path="/login" element={<Login/>} />
         < Route path="/register" element={<Register/>} />
         < Route path="/books" element={<BookCreate/>} />
+        < Route path="/getBooks" element={<GetBooks/>} />
         < Route path="/updateBooks" element={<UpdateBook/>} />
+        < Route path="/deleteBook" element={<DeleteBooksById/>} />
         < Route path="/review" element={<CreateReview/>} />
         < Route path="/updateReview" element={<UpdateReview/>} />
         < Route path="/*" element={<Page404/>} />

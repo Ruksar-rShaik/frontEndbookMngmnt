@@ -5,7 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url("https://wallpaperaccess.com/full/934065.jpg");
+  background-image: url("https://cdn.wallpapersafari.com/50/28/zwZoHE.jpg");
 }
 
 code {
@@ -40,4 +40,19 @@ code {
 #updatereview{
   margin-top: 10vh;
   font-size:larger;
+}
+
+#getbooks{
+  margin-top: 10vh;
+  font-size:larger;
+}
+
+#deletebook{
+  margin-top: 10vh;
+  font-size:larger;
+}
+
+#bookdetails{
+  font-style: italic;
+  font-weight: bolder;
 }
